@@ -86,9 +86,6 @@
         NSLog(@"ERROR::SHADER::VERTEX::COMPILATION_FAILED\n%s",infoLog);
     }
     
-    
-    
-    
     //2.片段着色器
     const GLchar* fragmentShaderSource = "#version 300 core\n"
     "precision mediump float;\n"
